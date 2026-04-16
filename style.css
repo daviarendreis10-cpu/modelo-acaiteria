@@ -41,10 +41,11 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-    background-image: url('Design sem nome.png');
+    background-image: url("Design\ sem\ nome.png");
+
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed; /* A mágica acontece aqui */
+    background-attachment: fixed;
     background-size: cover;
     width: 100%;
 
@@ -56,7 +57,9 @@ body {
     margin: 0 auto;
 
     overflow-x: hidden;
+    z-index: 1;
 }
+
 
 main {
     width: 100%;
