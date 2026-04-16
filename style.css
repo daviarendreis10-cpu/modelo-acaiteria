@@ -9,7 +9,7 @@
   --color-text-primary: #E0D9F8;
   --color-bg-main: #1E1230;
 
-  --color-primary: #6A3FC9;
+  --color-primary: #6a3fc9;
   --color-primary-hover: #7B52E0;
 
   --color-secondary: #C218C2;
@@ -41,7 +41,13 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-    background:var(--color-bg-main);
+    background-image: url('Design sem nome.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; /* A mágica acontece aqui */
+    background-size: cover;
+    width: 100%;
+
     color: var(--color-text-secondary);
     position: relative;
     display: flex;
