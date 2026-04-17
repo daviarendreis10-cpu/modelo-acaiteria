@@ -5,16 +5,20 @@
 }
 
 :root {
-    --bg-main: #1d1029;
-    --bg-card: rgba(49, 28, 68, 0.92);
-    --bg-soft: rgba(255, 255, 255, 0.06);
-    --text-main: #fff7ff;
-    --text-soft: #eadff2;
-    --accent: #ffcb3d;
-    --accent-hover: #ffd966;
-    --highlight: #8f4de5;
-    --border: rgba(255, 255, 255, 0.12);
-    --shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+    --bg-main: #14081f;
+    --bg-card: rgba(75, 35, 110, 0.95);
+    --bg-soft: rgba(255, 255, 255, 0.08);
+
+    --text-main: #ffffff;
+    --text-soft: #e6d9f2;
+
+    --accent: rgb(255, 60, 172);        /* rosa vibrante (chama atenção) */
+    --accent-hover: #ff5cc2;
+
+    --highlight: #7b2cbf;     /* roxo forte (tema açaí) */
+
+    --border: rgba(255, 255, 255, 0.15);
+    --shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
 }
 
 html {
@@ -159,7 +163,7 @@ main {
 }
 
 .button-primary {
-    box-shadow: 0 12px 28px rgba(255, 203, 61, 0.22);
+    box-shadow: 0 12px 28px rgba(255, 60, 172, 0.22);
 }
 
 .card-container {
