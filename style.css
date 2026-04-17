@@ -5,7 +5,7 @@
 }
 
 :root {
-    --bg-main: #14081f;
+    --bg-main: #30134c;
     --bg-card: rgba(75, 35, 110, 0.95);
     --bg-soft: rgba(255, 255, 255, 0.08);
 
@@ -15,7 +15,7 @@
     --accent: rgb(255, 60, 172);        /* rosa vibrante (chama atenção) */
     --accent-hover: #ff5cc2;
 
-    --highlight: #7b2cbf;     /* roxo forte (tema açaí) */
+    --highlight: #7d25ca;     /* roxo forte (tema açaí) */
 
     --border: rgba(255, 255, 255, 0.15);
     --shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
@@ -305,6 +305,8 @@ main {
 @media (max-width: 640px) {
     body {
         background-attachment: scroll;
+        background-color: #23033e;
+        background-image: none;
     }
 
     .hero {
